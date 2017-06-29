@@ -6,7 +6,7 @@ public class ComputerFacade {
     private HardDrive hardDrive;
     private Memory memory;
 
-    ComputerFacade(){
+    ComputerFacade() {
         motherboard = new Motherboard();
         cpu = new CPU();
         hardDrive = new HardDrive();
